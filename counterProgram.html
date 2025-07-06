@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Program  - By Suraj Arya</title>
+    <style>
+        #decrementBtn{
+            background-color: lightblue;
+        }
+        #resetBtn{
+            background-color: red;
+        }
+        #incrementBtn{
+            background-color: lightgreen;
+        }
+        .Btn{
+            height: 35px;
+            width: 80px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        .Btn:hover{
+            box-shadow: 2px 1px 5px black;
+        }
+        .Btn:active{
+            box-shadow: 3px -1px 5px black;
+        }
+
+        #headerNumber{
+            text-align: center;
+            font-size:60px;
+        }
+        #btns{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="headerNumber"></h1>
+    <br>
+    <div id="btns">
+    <button id="decrementBtn" class="Btn">Decrease</button>
+    <button id="resetBtn" class="Btn">Reset</button>
+    <button id="incrementBtn" class="Btn">Increase</button>
+    </div>
+    <script src="counterProgram.js"></script>
+</body>
+</html>
